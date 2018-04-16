@@ -1,0 +1,79 @@
+html {
+    min-height: 100% !important;
+  }
+  body {
+    min-height: 100% !important;
+    background-image: url("http://192.168.0.204/mkc/images/mkc_poz04.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.mainContentContainer {
+  padding-top: 15px;
+  padding-bottom: 15px; 
+}
+
+.logoImage {
+  background-color: #D63030;
+}
+
+#eventDates, #eventTime {
+  width: 150px;
+}
+
+#eventImage {
+  display: none;
+}
+
+#skicaSala {
+  background-color: black;
+  cursor: pointer;
+}
+
+#skicaSala:hover {
+  opacity: 0.6;
+}
+
+@media only screen and (min-width: 992px) {
+  .selectTicketsFormGroup {
+    max-width: 250px;
+  }
+
+  #seatChartsContainer {
+    display: block;
+  }
+
+  .smallScrSelect {
+    display: none;
+  }
+
+  .byeTicketsCard {
+    min-height: 360px;
+  }
+
+  .btnFloatRight {
+    float: right;
+  }
+  .trigerModal {
+    display: inline;
+  }
+  .trigerCollapse {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 992px) {
+  .trigerCollapse {
+    display: inline;
+  }
+  .trigerModal {
+    display: none;
+  }
+}
+
+#displayAvRows, #displayAvSeats {
+  max-width: 150px;
+}
+
