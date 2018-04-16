@@ -1,6 +1,7 @@
 <?php
     abstract class db_type
     {
+
         const MySql = 1;
         const Oracle = 2;
         const ODBC = 3;
